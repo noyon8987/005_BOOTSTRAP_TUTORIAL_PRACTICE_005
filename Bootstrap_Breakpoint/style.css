@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3vh;
+  font-size: 5vw;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  margin: 8vh auto;
+  border: 5px solid gray;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.child {
+  border: 5px solid yellow;
+  margin: 20px 0;
+  height: 100px;
+}
